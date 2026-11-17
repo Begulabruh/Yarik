@@ -1,0 +1,4 @@
+{"name":"yarik","version":"1.0.0","description":"Yarik messenger","author":"Yarik","main":"main.js",
+"scripts":{"start":"electron .","dist":"electron-builder --win portable"},
+"devDependencies":{"electron":"^33.2.0","electron-builder":"^25.1.8"},
+"build":{"appId":"app.yarik.desktop","productName":"Yarik","files":["main.js","config.json"],"win":{"target":"portable"},"portable":{"artifactName":"Yarik.exe"}}}
